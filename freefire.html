@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recargar Roblox - Yordin Recargas</title>
+    <title>Recargar Free Fire - Yordin Recargas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="images/yordin_logo.ico" type="image/x-icon">
@@ -343,7 +343,7 @@
     .game-info-card, .recharge-form { 
         background: #d68f24; 
         background: -webkit-linear-gradient(to right, #d68f24, #867355); 
-        background: linear-gradient(to right, #d68f24, #867355);
+        background: linear-gradient(to right, #d68f24, #867355); 
         border-radius: 12px; 
         padding: 25px; 
         margin-bottom: 30px; 
@@ -428,24 +428,24 @@
     }
     
     .package-item {
-        position: relative;
-        background-color: #A8A9AD; 
-        border: 2px solid #868B8E; 
-        border-radius: 10px;
-        padding: 15px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-        min-height: 100px;
-        visibility: visible !important;
-        opacity: 1 !important;
-        box-sizing: border-box;
-    }
+    position: relative;
+    background-color: #A8A9AD;
+    border: 2px solid #868B8E;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    min-height: 100px;
+    visibility: visible !important;
+    opacity: 1 !important;
+    box-sizing: border-box;
+}
     
     .package-item:hover { 
         border-color: var(--item-border-hover); 
@@ -453,12 +453,12 @@
         box-shadow: var(--item-shadow-hover); 
     }
     
-    .package-item.selected { 
-        background-color: #A8A9AD; 
-        border-color: #A8A9AD;
-        box-shadow: 0 0 10px rgba(168, 169, 173, 0.5), 0 0 20px rgba(168, 169, 173, 0.3);
-        transform: translateY(-3px); 
-    }
+.package-item.selected { 
+    background-color: #A8A9AD;
+    border-color: #A8A9AD;
+    box-shadow: 0 0 10px rgba(168, 169, 173, 0.5), 0 0 20px rgba(168, 169, 173, 0.3);
+    transform: translateY(-3px); 
+}
     
     .package-item.selected::after { 
         content: '\f058'; 
@@ -485,21 +485,21 @@
         font-size: 1.25em; 
     }
     
-    #confirm-recharge-btn { 
-        background: linear-gradient(to right, #d68f24, #867355) !important;
-        color: #ffffff !important;
-        padding: 12px 25px;
-        border: none;
-        border-radius: 25px;
-        cursor: pointer;
-        font-size: 1.1em;
-        font-weight: 700;
-        transition: all 0.3s ease;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
-        display: block;
-        margin: 20px auto;
-        letter-spacing: 0.5px;
-    }
+#confirm-recharge-btn { 
+    background: linear-gradient(to right, #d68f24, #867355) !important;
+    color: #ffffff !important;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+    display: block;
+    margin: 20px auto;
+    letter-spacing: 0.5px;
+}
     
     #confirm-recharge-btn:hover:not(:disabled) { 
         background: linear-gradient(to right, #867355, #d68f24) !important;
@@ -720,16 +720,14 @@
     <main class="game-main">
         <div class="game-content-wrapper">
             <div class="recharge-form">
-                <h2 style="color: gray;">1. Ingresa tus Datos de tu Cuenta Roblox</h2>
+                <h2 style="color: gray;">1. Ingresa tu ID de Jugador</h2>
                 <div class="form-group">
-                    <label for="player-id">Correo Electronico:</label>
-                    <input type="text" style="background-color: white;" id="player-id" name="playerId" placeholder="Ej: ejemplo@gmail.com" required>
-                    <label for="password">Contraseña:</label>
-                    <input type="password" style="width: 100%; max-width: 350px; padding: 12px 15px; border: 1px solid var(--border-color); border-radius: 8px; background-color: white; color: var(--text-color); font-size: 1em; outline: none; transition: border-color 0.3s ease, box-shadow 0.3s ease; box-sizing: border-box; display: block; margin: 0 auto;" id="password" name="password" placeholder="Ej: 123456789" required>
+                    <label for="player-id">ID de Jugador:</label>
+                    <input type="text" style="background-color: white;" id="player-id" name="playerId" placeholder="Ej: 1234567890" required>
                 </div>
-                <h2 style="color: gray;">2. Selecciona tus Robux</h2>
+                <h2 style="color: gray;">2. Selecciona tus Diamantes</h2>
                 <div class="package-grid" id="package-list"></div>
-                <form id="roblox-recharge-form">
+                <form id="freefire-recharge-form">
                     <button type="submit" class="btn-primary" id="confirm-recharge-btn" disabled>Proceder al Pago</button>
                 </form>
             </div>
@@ -744,83 +742,80 @@
         </div>
     </footer>
     <script type="module">
-    import { robloxPackages } from './precios.js';
+import { freefirePackages, TASA_DOLAR_VES } from './precios.js';
 
-    document.addEventListener('DOMContentLoaded', () => {
-        const playerIdInput = document.getElementById('player-id');
-        const passwordInput = document.getElementById('password');
-        const packageListDiv = document.getElementById('package-list');
-        const confirmBtn = document.getElementById('confirm-recharge-btn');
-        let selectedPackage = null;
-        
-        const currentCurrency = 'VES'; // Moneda fija en Bolívares
+document.addEventListener('DOMContentLoaded', () => {
+    const playerIdInput = document.getElementById('player-id');
+    const packageListDiv = document.getElementById('package-list');
+    const confirmBtn = document.getElementById('confirm-recharge-btn');
+    let selectedPackage = null;
+    
+    // La moneda actual se obtiene del archivo de precios
+    const currentCurrency = 'VES';
 
-        function formatPrice(price) {
-            return `Bs. ${parseFloat(price).toFixed(2)}`;
-        }
+    function formatPrice(price) {
+        return `Bs. ${parseFloat(price).toFixed(2)}`;
+    }
 
-        function updatePackages() {
-            packageListDiv.innerHTML = '';
-            robloxPackages.forEach(pkg => {
-                const packageItem = document.createElement('div');
-                packageItem.classList.add('package-item');
-                packageItem.dataset.id = pkg.id;
-                packageItem.dataset.priceUsd = pkg.priceUSD;
-                packageItem.dataset.priceVes = pkg.priceVES;
-                packageItem.innerHTML = `
-                    <span>${pkg.name}</span>
-                    <span class="price">${formatPrice(pkg.priceVES)}</span>
-                `;
-                packageItem.addEventListener('click', () => {
-                    if (selectedPackage) {
-                        selectedPackage.classList.remove('selected');
-                    }
-                    packageItem.classList.add('selected');
-                    selectedPackage = packageItem;
-                    checkFormValidity();
-                });
-                packageListDiv.appendChild(packageItem);
+    function updatePackages() {
+        packageListDiv.innerHTML = '';
+        freefirePackages.forEach(pkg => {
+            const packageItem = document.createElement('div');
+            packageItem.classList.add('package-item');
+            packageItem.dataset.id = pkg.id;
+            packageItem.dataset.priceUsd = pkg.priceUSD;
+            packageItem.dataset.priceVes = pkg.priceVES;
+            packageItem.innerHTML = `
+                <span>${pkg.name}</span>
+                <span class="price">${formatPrice(pkg.priceVES)}</span>
+            `;
+            packageItem.addEventListener('click', () => {
+                if (selectedPackage) {
+                    selectedPackage.classList.remove('selected');
+                }
+                packageItem.classList.add('selected');
+                selectedPackage = packageItem;
+                checkFormValidity();
             });
-            checkFormValidity();
-        }
-
-        function checkFormValidity() {
-            const playerIdValid = playerIdInput.value.trim() !== '';
-            const passwordValid = passwordInput.value.trim() !== '';
-            confirmBtn.disabled = !(playerIdValid && passwordValid && selectedPackage);
-        }
-
-        playerIdInput.addEventListener('input', checkFormValidity);
-        passwordInput.addEventListener('input', checkFormValidity);
-
-        updatePackages();
-
-        document.getElementById('roblox-recharge-form').addEventListener('submit', (e) => {
-            e.preventDefault();
-            if (selectedPackage) {
-                const playerId = playerIdInput.value.trim();
-                const packageName = selectedPackage.querySelector('span:first-child').textContent;
-                
-                const basePriceUSD = parseFloat(selectedPackage.dataset.priceUsd);
-                const finalPriceVES = parseFloat(selectedPackage.dataset.priceVes);
-
-                const transactionDetails = {
-                    game: "Roblox",
-                    username: playerId, // CAMBIO A REALIZAR AQUÍ
-                    password: passwordInput.value.trim(),
-                    package: packageName,
-                    priceUSD: basePriceUSD.toFixed(2),
-                    finalPrice: finalPriceVES.toFixed(2),
-                    currency: currentCurrency
-                };
-                
-                localStorage.setItem('transactionDetails', JSON.stringify(transactionDetails));
-                window.location.href = 'payment.html';
-            } else {
-                console.error('Por favor, selecciona un plan de recarga.');
-            }
+            packageListDiv.appendChild(packageItem);
         });
+        checkFormValidity();
+    }
+
+    function checkFormValidity() {
+        const playerIdValid = playerIdInput.value.trim() !== '';
+        confirmBtn.disabled = !(playerIdValid && selectedPackage);
+    }
+
+    playerIdInput.addEventListener('input', checkFormValidity);
+
+    updatePackages();
+
+    document.getElementById('freefire-recharge-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        if (selectedPackage) {
+            const playerId = playerIdInput.value.trim();
+            const packageName = selectedPackage.querySelector('span:first-child').textContent;
+            
+            const basePriceUSD = parseFloat(selectedPackage.dataset.priceUsd);
+            const finalPriceVES = parseFloat(selectedPackage.dataset.priceVes);
+
+            const transactionDetails = {
+                game: "Free Fire",
+                playerId: playerId,
+                package: packageName,
+                priceUSD: basePriceUSD.toFixed(2),
+                finalPrice: finalPriceVES.toFixed(2),
+                currency: currentCurrency
+            };
+            
+            localStorage.setItem('transactionDetails', JSON.stringify(transactionDetails));
+            window.location.href = 'payment.html';
+        } else {
+            console.error('Por favor, selecciona un plan de recarga.');
+        }
     });
-</script>
+});
+    </script>
 </body>
 </html>
