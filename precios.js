@@ -52,14 +52,14 @@ const arenabreakoutPackagesUSD = [
 
 // Precios base en USD para Blood Strike - NO CAMBIAR ESTOS VALORES
 const bloodstrikePackagesUSD = [
-    { id: 1, name: '105 Gold', priceUSD: 0.94 },
-    { id: 2, name: '320 Gold', priceUSD: 2.90 },
-    { id: 3, name: '540 Gold', priceUSD: 4.80 },
-    { id: 4, name: '1100 Gold', priceUSD: 10.00 },
-    { id: 5, name: '2260 Gold', priceUSD: 19.50 },
-    { id: 6, name: '5800 Gold', priceUSD: 46.00 },
-    { id: 7, name: 'Pase Elite', priceUSD: 4.50 },
-    { id: 8, name: 'Pase Elite Plus', priceUSD: 9.30 }
+    { id: 1, name: '116 Gold', priceUSD: 1.09 },
+    { id: 2, name: '352 Gold', priceUSD: 3.34 },
+    { id: 3, name: '594 Gold', priceUSD: 5.97 },
+    { id: 4, name: '1210 Gold', priceUSD: 11.34 },
+    { id: 5, name: '2486 Gold', priceUSD: 22.70 },
+    { id: 6, name: '6380 Gold', priceUSD: 52.40 },
+    { id: 7, name: 'Pase Elite', priceUSD: 5.36 },
+    { id: 8, name: 'Pase Elite Plus', priceUSD: 10.68 }
 ];
 
 // Precios base en USD para Mobile Legends - NO CAMBIAR ESTOS VALORES
