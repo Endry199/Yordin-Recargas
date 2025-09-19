@@ -233,7 +233,7 @@ header {
 
 /* Botones */
 .btn-primary {
-    background: var(--button-gradient);
+    background: #0000ff;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -249,13 +249,13 @@ header {
 }
 
 .btn-primary:hover {
-    background: var(--button-hover-gradient);
+    background: #0000cc;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px var(--shadow-dark);
 }
 
 .btn-primary:disabled {
-    background: var(--border-color);
+    background: #0000cc;
     cursor: not-allowed;
     transform: none;
     box-shadow: none;
