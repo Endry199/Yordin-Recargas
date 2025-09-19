@@ -908,7 +908,7 @@ footer p {
 
 #confirm-recharge-btn {
     background: var(--button-gradient) !important;
-    color: blue !important;
+    color: #0000FF !important;
     padding: 12px 25px;
     border: none;
     border-radius: 25px;
@@ -923,7 +923,7 @@ footer p {
 }
 
 #confirm-recharge-btn:hover:not(:disabled) {
-    background: var(--button-hover-gradient) !important;
+    background: #0000CC
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
