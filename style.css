@@ -234,7 +234,7 @@ header {
 /* Botones */
 .btn-primary {
     background: var(--button-gradient);
-    color: #blue;
+    color: white;
     padding: 12px 25px;
     border: none;
     border-radius: 25px;
@@ -908,7 +908,7 @@ footer p {
 
 #confirm-recharge-btn {
     background: var(--button-gradient) !important;
-    color: #ffffff !important;
+    color: blue !important;
     padding: 12px 25px;
     border: none;
     border-radius: 25px;
